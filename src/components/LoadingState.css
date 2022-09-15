@@ -1,0 +1,59 @@
+/* Default h1 values */
+.h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+/* Default p values */
+.p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.h1,
+.p {
+    border-radius: 8px;
+}
+
+.h1.placeholder {
+    background-color: rgb(219, 219, 219);
+    color: black;
+    width: 180px;
+    height: 1.8rem;
+    margin-left: 0.3rem;
+    margin-top: 1.8rem;
+}
+
+.p.placeholder {
+    background-color: rgb(220, 220, 220);
+    color: black;
+    width: 80px;
+    height: 1rem;
+    margin-left: 0.3rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.animation-h1 {
+    animation: opacity 0.5s infinite alternate-reverse;
+}
+.animation-p {
+    animation: opacity 0.5s infinite alternate;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
