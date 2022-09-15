@@ -8,6 +8,7 @@ This is a react app that shows how to create a loading placeholder animation usi
     npm i
     npm start
     ```
+[Check the deployed app on Vercel](https://react-placeholder-animation.vercel.app/)
 
 ## TIP:
 
